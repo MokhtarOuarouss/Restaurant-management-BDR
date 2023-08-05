@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="701.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="148.0" layoutY="141.0" prefHeight="38.0" prefWidth="173.0" text="Item Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <MenuButton layoutX="374.0" layoutY="141.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="173.0" text="MenuButton">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Label alignment="CENTER" layoutX="148.0" layoutY="206.0" prefHeight="38.0" prefWidth="173.0" text="Quantity">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="374.0" layoutY="206.0" prefHeight="38.0" prefWidth="173.0" />
+      <Button layoutX="181.0" layoutY="265.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="364.0" text="Add Order">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
