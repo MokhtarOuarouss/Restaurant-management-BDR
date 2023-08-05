@@ -1,2 +1,2 @@
 # Restaurant-management-BDR
-this is an application for restaurant management using distributed database concept
+This is an application for restaurant management using distributed database concept
