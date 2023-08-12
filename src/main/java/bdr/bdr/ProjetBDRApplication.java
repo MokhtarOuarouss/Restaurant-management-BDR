@@ -24,6 +24,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class ProjetBDRApplication extends Application {
+
     //if db == 0 => BDR else => (Restaurant1 || Restaurant2)
     int db = 0 ;
     int customers_id;
@@ -34,7 +35,7 @@ public class ProjetBDRApplication extends Application {
         pane.setPrefSize(701.0, 475.0);
 
 
-        Image backgroundImage = new Image("C:\\Users\\mk oussen\\Downloads\\image.jpg");
+        Image backgroundImage = new Image("C:\\Users\\mk oussen\\Pictures\\imageRestaurant.jpg");
 
         ImageView imageView = new ImageView(backgroundImage);
         imageView.setFitHeight(600.0);
@@ -773,7 +774,7 @@ public class ProjetBDRApplication extends Application {
         // Create the root pane
         Pane rootPane = new Pane();
         rootPane.setPrefSize(701, 475);
-        Image backgroundImage = new Image("C:\\Users\\mk oussen\\Downloads\\image.jpg");
+        Image backgroundImage = new Image("C:\\Users\\mk oussen\\Pictures\\imageRestaurant.jpg");
 
         ImageView imageView = new ImageView(backgroundImage);
         imageView.setFitHeight(600.0);
@@ -882,7 +883,7 @@ public class ProjetBDRApplication extends Application {
     public Pane AddOrder() throws SQLException {
         Pane rootPane = new Pane();
         rootPane.setPrefSize(701, 475);
-        Image backgroundImage = new Image("C:\\Users\\mk oussen\\Downloads\\image.jpg");
+        Image backgroundImage = new Image("C:\\Users\\mk oussen\\Pictures\\imageRestaurant.jpg");
 
         ImageView imageView = new ImageView(backgroundImage);
         imageView.setFitHeight(600.0);
@@ -991,7 +992,7 @@ public class ProjetBDRApplication extends Application {
         // Create the root pane
         Pane rootPane = new Pane();
         rootPane.setPrefSize(701, 475);
-        Image backgroundImage = new Image("C:\\Users\\mk oussen\\Downloads\\image.jpg");
+        Image backgroundImage = new Image("C:\\Users\\mk oussen\\Pictures\\imageRestaurant.jpg");
 
         ImageView imageView = new ImageView(backgroundImage);
         imageView.setFitHeight(600.0);
@@ -1104,7 +1105,7 @@ public class ProjetBDRApplication extends Application {
         // Create the root pane
         Pane rootPane = new Pane();
         rootPane.setPrefSize(701, 475);
-        Image backgroundImage = new Image("C:\\Users\\mk oussen\\Downloads\\image.jpg");
+        Image backgroundImage = new Image("C:\\Users\\mk oussen\\Pictures\\imageRestaurant.jpg");
 
         ImageView imageView = new ImageView(backgroundImage);
         imageView.setFitHeight(600.0);
@@ -1247,7 +1248,7 @@ public class ProjetBDRApplication extends Application {
     }
     public Pane FirstInterface(){
         Pane rootPane = new Pane();
-        Image backgroundImage = new Image("C:\\Users\\mk oussen\\Downloads\\image.jpg");
+        Image backgroundImage = new Image("C:\\Users\\mk oussen\\Pictures\\imageRestaurant.jpg");
         rootPane.setPrefSize(701.0, 475.0);
 
         ImageView imageView = new ImageView(backgroundImage);
